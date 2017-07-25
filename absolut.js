@@ -80,7 +80,7 @@
 				})
 				console.log(arrayOfIngredients.join(','));
 
-			var Row = "<tr><td>" + name +"</td> <td>" +arrayOfIngredients.join(', ') +"</td><td>"+instructions+"</td></tr>"
+			var Row = "<tr><td><p>Drink: " + name +"</td><td>Ingredients: " +arrayOfIngredients.join(', ') +"</td><br></br><td>Instructions: "+instructions+"</td></tr>"
 			$('.drinksTable').append(Row);
 		})
       });
